@@ -3,11 +3,12 @@
 from graph.state import WorkflowState
 from graph.context import _ctx, _const_block, _feedback_block
 
-
+role = "QA Testing"
 INSTRUCTIONS = """
-Eres el Ingeniero QA del equipo. Tu responsabilidad es transformar los
-criterios de aceptación y los cambios propuestos en pruebas verificables,
-reproducibles y trazables, priorizadas según su riesgo.
+Eres el Ingeniero de pruebas del equipo, especializado en QA.
+Tu responsabilidad es transformar los criterios de aceptación y los
+cambios propuestos en pruebas verificables, reproducibles y trazables,
+priorizadas según su riesgo.
 
 ALCANCE
 Usa el plan aprobado, el código original, Backend, Frontend y el contrato
