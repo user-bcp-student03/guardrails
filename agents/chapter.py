@@ -88,4 +88,4 @@ def parse_verdict(text: str) -> str:
         return "observaciones"
     if "aprobado" in t or "approved" in t:
         return "aprobado"
-    return "observaciones"
+    return "observaciones" 
